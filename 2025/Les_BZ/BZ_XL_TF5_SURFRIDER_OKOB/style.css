@@ -83,6 +83,10 @@
     top: 40px;
     bottom: initial;
   }
+  .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc.DE{
+    width: 89%;
+    right: 0;
+  }
   .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc{
     width: 80%;
     right: 0;
@@ -113,6 +117,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc p.txt1.DE br {
+    display: none;
+  }
   .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc a.cta {
     font-size: 13px;
     margin-top: 10px;
@@ -137,6 +144,15 @@
   .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc p.txt1{
     font-size: 12px;
     line-height: 16px;
+  }
+  .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc h4.PL {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc h4.DE {
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
   .btn-visuel-first .product-item.breaking-zone.PE25-BZ-TF5-SURFRIDER-OKOB .texteBloc h4 {
     font-size: 16px;
