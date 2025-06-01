@@ -1,0 +1,362 @@
+.main-content .page,
+#page_dossier {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.fr-bg {
+  display: none;
+}
+#z1-home-container-Vente-Privee_PE25 .txtOffre {
+  font-weight: 700;
+  font-size: 102px;
+  line-height: 49px;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #002169;
+}
+#z1-home-container-Vente-Privee_PE25 .txtOffre span.minus-text{
+  font-size: 16px;
+  line-height: 10px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#z1-home-container-Vente-Privee_PE25 .txtOffre span.minus-text .minus{
+  font-size: 182px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
+#z1-home-container-Vente-Privee_PE25 .txtOffre sup {
+ font-size: 49px;
+  line-height: 56px;
+  vertical-align: top;
+  top: 0;
+  font-weight: 400;
+}
+#z1-home-container-Vente-Privee_PE25 .offre .supp{
+        padding:5px 20px;
+        color: #FFFFFF;
+        background-color: #00B5EC;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 8px;
+        font-weight: 700;
+    }
+    #z1-home-container-Vente-Privee_PE25 .offre .supp sup{
+        font-size: 12px;
+        line-height: 31px;
+        vertical-align: top;
+        font-weight: 400;
+    }
+    #z1-home-container-Vente-Privee_PE25 .offre .supp span{
+        font-size: 30px;
+        font-weight: 700;
+        display: inline-block;
+        vertical-align: middle;
+    }
+#z1-home-container-Vente-Privee_PE25 .offre .text-article {
+  font-size: 13px;
+}
+@media (min-width: 1000px) {
+  .fr-bg {
+    display: block;
+  }
+}
+
+#z1-home-container-Vente-Privee_PE25 picture.fr {
+  min-height: 500px;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 481px) {
+  #z1-home-container-Vente-Privee_PE25 picture.fr {
+    min-height: 600px;
+  }
+}
+@media (min-width: 750px) {
+  #z1-home-container-Vente-Privee_PE25 picture.fr {
+    min-height: 700px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .txtOffre {
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 145px;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+  
+}
+#z1-home-container-Vente-Privee_PE25 .offre .text-article {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #002169;
+}
+}
+
+@media (min-width: 1000px) {
+  #z1-home-container-Vente-Privee_PE25 picture.fr {
+    min-height: auto;
+    background-color: transparent;
+  }
+}
+
+#z1-home-container-Vente-Privee_PE25 {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-color: #EBEBEB;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+#z1-home-container-Vente-Privee_PE25 .offre {
+  position: initial;
+  top: 15%;
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#z1-home-container-Vente-Privee_PE25 .offre img {
+  width: 210px;
+}
+#z1-home-container-Vente-Privee_PE25 .ctas {
+  width: 100%;
+  position: initial;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+  padding: 20px 0;
+}
+
+#z1-home-container-Vente-Privee_PE25 .cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  max-width: 350px;
+}
+
+#z1-home-container-Vente-Privee_PE25 .ctas a {
+  width: 155px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #002169;
+  border: 1px solid #002169;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+}
+
+#z1-home-container-Vente-Privee_PE25 .ctas a.pl {
+  width: 160px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  background-color: #ffffff;
+  color: #002169;
+  border: 1px solid #002169;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 5000ms;
+}
+
+#z1-home-container-Vente-Privee_PE25 .ctas a:hover {
+  background-color: #F07F1A;
+  color: #ffffff;
+  border: 1px solid #F07F1A;
+  font-weight: 500;
+}
+
+#z1-home-container-Vente-Privee_PE25 .cdt {
+  position: absolute;
+  bottom: -20px;
+  right: 5px;
+  color: #0d3380;
+  font-size: 10px;
+}
+#z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 300px;
+}
+@media (min-width: 600px) {
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 385px;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .ctas {
+    gap: 18px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 751px) {
+#z1-home-container-Vente-Privee_PE25 .offre .supp{
+        display: inline-block;
+        padding:15px 20px;
+        color: #FFFFFF;
+        background-color: #00B5EC;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 8px;
+        font-weight: 700;
+    }
+    #z1-home-container-Vente-Privee_PE25 .offre .supp sup{
+        font-size: 17px;
+        line-height: 25px;
+        vertical-align: top;
+        font-weight: 400;
+    }
+    #z1-home-container-Vente-Privee_PE25 .offre .supp span{
+        font-size: 50px;
+        font-weight: 700;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+@media (min-width: 1000px) {
+  #z1-home-container-Vente-Privee_PE25{
+        animation: familyBG 4s infinite;
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .offre {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 360px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .ctas {
+    bottom: 40px;
+    position: absolute;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .cta {
+    max-width: 100%;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .cdt {
+    position: absolute;
+    right: 5px;
+    color: #0d3380;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1300px) {
+    #z1-home-container-Vente-Privee_PE25{
+        height: 750px;
+    }
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 450px;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .ctas a {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #z1-home-container-Vente-Privee_PE25 .offre {
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    gap: 15px;
+  }
+
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 470px;
+  }
+}
+
+@media (min-width: 1700px) {
+  #z1-home-container-Vente-Privee_PE25 .offre {
+    gap: 30px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 450px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .ctas a {
+    width: 240px;
+    height: 60px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1900px) {
+  #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 500px;
+  }
+  #z1-home-container-Vente-Privee_PE25{
+    height: 820px;
+}
+}
+
+@media (max-width: 500px) {
+    #z1-home-container-Vente-Privee_PE25 .offre img {
+    width: 250px;
+    }
+    #z1-home-container-Vente-Privee_PE25 .txtOffre {
+    line-height: 53px;
+  }
+}
+@media (max-width: 800px) {
+    #z1-home-container-Vente-Privee_PE25 .txtOffre span.minus-text {
+    font-size: 12px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .txtOffre span.minus-text .minus {
+    font-size: 124px;
+    margin-top: 10px;
+  }
+  #z1-home-container-Vente-Privee_PE25 .txtOffre sup {
+    font-size: 32px;
+    line-height: 0px;
+  }
+   #z1-home-container-Vente-Privee_PE25 .cdt {
+    bottom: 10px;
+  }
+
+}
+
+@keyframes familyBG {
+    0%, 0.99% {
+        background-image: url(//media.idkids.fr/media/content/cms/Commun/Homepage/Z1/AH24/Vente-Privee/imggif-1.webp), url(//media.idkids.fr/media/content/cms/Commun/Homepage/Z1/AH24/Vente-Privee/imggif-2.webp);
+    }
+
+    1%, 49% {
+        background-image: url(//media.idkids.fr/media/content/cms/Commun/Homepage/Z1/AH24/Vente-Privee/imggif-1.webp);
+    }
+
+    50%, 100% {
+        background-image: url(//media.idkids.fr/media/content/cms/Commun/Homepage/Z1/AH24/Vente-Privee/imggif-2.webp);
+    }
+}

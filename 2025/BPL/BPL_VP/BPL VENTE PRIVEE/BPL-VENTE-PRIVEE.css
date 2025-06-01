@@ -1,0 +1,201 @@
+#bpl-Vente-privee{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #022169;    
+    margin-bottom: 30px;
+    position: relative;
+    padding: 15px 0 10px 0;
+  }
+
+#bpl-Vente-privee .contBnd {
+    display: flex;
+    margin: 0 auto;
+    gap: 2%;
+  }
+#bpl-Vente-privee .logo img{
+  width: 110px;
+  padding-left: 4px;
+  padding-top: 8px;
+}
+#bpl-Vente-privee .bloc-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#bpl-Vente-privee .txtOffre {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: relative;
+}
+#bpl-Vente-privee .txtOffre span.minus-text{
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 6px;
+}
+#bpl-Vente-privee .txtOffre span.minus-text .minus{
+    font-size:46px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+#bpl-Vente-privee .txtJsk.NL {
+    padding-right: 8px;
+}
+#bpl-Vente-privee .txtJsk {
+    padding-right: 3px;
+}
+#bpl-Vente-privee .txtOffre sup {
+    font-size: 11px;
+    line-height:29px;
+    vertical-align: top;
+    top: 0px;
+}
+#bpl-Vente-privee .bloc-center p.pct {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 2px;
+}
+#bpl-Vente-privee .cdt {
+  position: absolute;
+  font-size: 5px;
+  bottom: 2px;
+  right: 4px;
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 400px) {
+  #bpl-Vente-privee .logo img {
+    width: 165px;
+  } 
+  #bpl-Vente-privee .bloc-center p.pct {
+  font-size: 12px;
+}
+}
+@media only screen and (min-width: 586px) {
+ #bpl-Vente-privee .logo img {
+    width: 250px;
+    padding-left: 20px;
+  } 
+   #bpl-Vente-privee{
+    padding: 15px 45px 10px 0;
+  }
+  #bpl-Vente-privee .cdt {
+  font-size: 11px;
+  right: 7px;
+}
+ #bpl-Vente-privee .bloc-center p.pct {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 760px) {
+ #bpl-Vente-privee .txtOffre {
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0;
+        justify-content: flex-start;
+  }
+   #bpl-Vente-privee .bloc-center p.pct {
+    font-size: 18px;
+    line-height: 25px;
+  }
+} 
+@media only screen and (min-width: 800px) {
+ #bpl-Vente-privee .txtOffre {
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0;
+        width: 190px;
+        justify-content: flex-start;
+  }
+   #bpl-Vente-privee .bloc-center p.pct {
+    font-size: 18px;
+    line-height: 25px;
+    width: 83%;
+  }
+   #bpl-Vente-privee .bloc-center {
+    width: 100%;
+  }
+} 
+@media only screen and (min-width: 979px) {
+    #bpl-Vente-privee .contBnd {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+        gap: 6% !important;
+} 
+   #bpl-Vente-privee .txtOffre span.minus-text{
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 6px;
+    }
+    #bpl-Vente-privee .txtOffre span.minus-text .minus{
+        font-size:54px;
+        margin-top: 2px;
+    }
+    #bpl-Vente-privee .txtOffre sup {
+        font-size: 12px;
+        line-height:24px;
+    }
+} 
+@media only screen and (min-width: 1035px) {
+  #bpl-Vente-privee .logo img {
+    width: 300px;
+  } 
+}
+@media only screen and (min-width: 1200px) {
+    #bpl-Vente-privee .contBnd {
+        gap: 20% !important;
+} 
+} 
+@media only screen and (min-width: 1400px) {
+    #bpl-Vente-privee .contBnd {
+        gap: 33% !important;
+} 
+} 
+@media only screen and (min-width: 1900px) {
+  #bpl-Vente-privee .bloc-center p.pct {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+#bpl-Vente-privee .txtOffre span.minus-text{
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 6px;
+    }
+  #bpl-Vente-privee .txtOffre span.minus-text .minus{
+        font-size:64px;
+        margin-top: 2px;
+    }
+  #bpl-Vente-privee .txtOffre sup {
+        font-size: 14px;
+        line-height:30px;
+    }
+#bpl-Vente-privee .txtOffre {
+        font-size: 70px;
+        line-height: 70px;
+  }
+#bpl-Vente-privee .logo img {
+    padding-left: 0px;
+  } 
+}
+
+
+
+

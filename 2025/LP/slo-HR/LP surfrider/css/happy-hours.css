@@ -1,0 +1,231 @@
+.main-content .page,
+#page_dossier {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.z1_HAPPY_HOURS .timer {
+  margin-top: 10px;
+}
+
+.z1_HAPPY_HOURS {
+  position: relative;
+  font-family: "Poppins";
+  background-color: #FF6600;
+  color: #fff;
+  cursor: pointer;
+  padding: 30px 0 40px;
+  min-height: 370px;
+  text-align: center;
+}
+
+.z1_HAPPY_HOURS .timer img {
+  width: 250px;
+}
+.z1_HAPPY_HOURS .texte {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*items 1 */
+.z1_HAPPY_HOURS-item1 img {
+  max-width: 243px;
+  height: 100%;
+}
+
+.z1_HAPPY_HOURS .exclu-web-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.z1_HAPPY_HOURS .happy {
+  font-weight: 900;
+  white-space: nowrap;
+  font-size: 22px;
+  letter-spacing: 9.78px;
+}
+
+.z1_HAPPY_HOURS .happy span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.z1_HAPPY_HOURS .happy span img {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.z1_HAPPY_HOURS .minuit {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.z1_HAPPY_HOURS-item2 {
+  /*position: relative; */
+  margin: 30px 5px 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.PE22_HAPPY-HOURS-BANDEAU-HP .hide-on-desk {
+  display: none;
+}
+
+.reduction-parent {
+  position: relative;
+}
+
+.z1_HAPPY_HOURS .reduction-value-bandeau-hp {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 40px;
+}
+
+.z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch {
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 22px;
+}
+.z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch sup{
+  font-size: 12px;
+  line-height: 20px;
+  top: -10px;
+  vertical-align: top;
+  position: relative;
+}
+.z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch.de {
+  font-size: 18px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 22px;
+}
+
+.z1_HAPPY_HOURS .z1_HAPPY_HOURS-item2 .txt-offerts {
+  font-weight: 600 !important;
+  font-size: 14px;
+}
+
+.z1_HAPPY_HOURS .hide-on-desk {
+  display: none;
+}
+
+
+/*items 3 */
+
+.z1_HAPPY_HOURS .z1_HAPPY_HOURS-item3 {
+  align-self: center;
+}
+
+/* boutton je fonce */
+
+
+.z1_HAPPY_HOURS .vite-fonce-cta {
+  font-size: 16px;
+  font-weight: 500;
+  color: #383838;
+  text-decoration: none;
+  background-color: #fff;
+  padding:11px 43px;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.z1_HAPPY_HOURS .vite-fonce-cta:hover {
+  background-color: #ffffff70;
+  color: #fff;
+}
+
+/* voir condition */
+.z1_HAPPY_HOURS .voir-conditions {
+  font-size: 8px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -15px;
+  right: 5px;
+  white-space: nowrap;
+  color: #333333;
+}
+
+@media screen and (max-width: 480px) {
+  .z1_HAPPY_HOURS-item2 {
+    column-gap: 15px;
+  }
+  .z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch {
+    font-size: 26px;
+    line-height: 22px;
+  }
+  .z1_HAPPY_HOURS .z1_HAPPY_HOURS-item2 .txt-offerts {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 4px;
+  }
+  .exclu-web-text.de span:first-child{
+    display: none;
+  }
+  .exclu-web-text.de span.de{
+    display: inline-block;
+  }
+  .z1_HAPPY_HOURS .exclu-web-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .z1_HAPPY_HOURS .texte {
+    justify-content: center;
+  }
+
+  .z1_HAPPY_HOURS .timer img {
+    width: 330px;
+  }
+  .z1_HAPPY_HOURS .minuit {
+    font-size: 18px;
+  }
+
+  .z1_HAPPY_HOURS .happy span img {
+    width: 25px;
+    height: 25px;
+    margin-top: 0px;
+  }
+
+  .z1_HAPPY_HOURS .happy {
+    font-size: 22px;
+  }
+
+  .z1_HAPPY_HOURS .z1_HAPPY_HOURS-item2 .txt-offerts {
+    font-size: 16px;
+  }
+
+  .z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .z1_HAPPY_HOURS .reduction-value-bandeau-hp-ch sup{
+    font-size: 16px;
+    line-height: 20px;
+    top: -10px;
+    vertical-align: top;
+    position: relative;
+  }
+}

@@ -1,0 +1,101 @@
+#bandeau-panier-Vente-privee{
+    max-width: 980px;
+    margin: auto;
+    height: auto;
+    background-color: #022169;    
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px 10px 0 0;
+  }
+
+#bandeau-panier-Vente-privee .contBnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 2%;
+  }
+#bandeau-panier-Vente-privee .logo img{
+  width: 110px;
+  padding-left: 10px;
+}
+#bandeau-panier-Vente-privee p.pct {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#bandeau-panier-Vente-privee .cdt {
+  position: absolute;
+  font-size: 7px;
+  bottom: 2px;
+  right: 4px;
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 400px) {
+  #bandeau-panier-Vente-privee p.pct {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  #bandeau-panier-Vente-privee .logo img {
+    width: 165px;
+  } 
+   #bandeau-panier-Vente-privee{
+    padding: 10px 20px 0 0;
+  }
+}
+@media only screen and (min-width: 586px) {
+ #bandeau-panier-Vente-privee .logo img {
+    width: 250px;
+    padding-left: 10px;
+  } 
+   #bandeau-panier-Vente-privee{
+    padding: 10px 45px 0 0;
+  }
+  #bandeau-panier-Vente-privee p.pct {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  #bandeau-panier-Vente-privee .cdt {
+  font-size: 11px;
+  right: 7px;
+}
+}
+@media only screen and (min-width: 810px) {
+ #bandeau-panier-Vente-privee p.pct {
+    font-size: 30px;
+    line-height: 40px;
+  }
+} 
+@media only screen and (min-width: 979px) {
+  #bandeau-panier-Vente-privee .contBnd{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 auto;
+  gap: 12% !important;
+}
+} 
+@media only screen and (min-width: 1035px) {
+  #bandeau-panier-Vente-privee .logo img {
+    width: 300px;
+  } 
+}
+@media only screen and (min-width: 1900px) {
+  #bandeau-panier-Vente-privee p.pct {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+ 
+  #bandeau-panier-Vente-privee .logo img {
+    padding-left: 0px;
+  } 
+}
+
+
+
+
